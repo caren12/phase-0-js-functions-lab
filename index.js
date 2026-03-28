@@ -27,7 +27,7 @@ function is palindrome(word)  {
     return word === reversed
 }  
 
-//
+//Discounted price
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
     let discountAmount = (originalPrice * discountPercentage/100) ;
     return originalPrice - discountAmount
@@ -43,6 +43,3 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
 
 
 
-
-// This is required for the test to function properly  
-module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
